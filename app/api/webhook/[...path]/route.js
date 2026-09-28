@@ -49,7 +49,7 @@ async function handle(request, context) {
     console.log("WEBHOOK ITEM:", item);
 
     // sementara JANGAN addWebhook
-    // addWebhook(item);
+    addWebhook(item);
 
     return NextResponse.json({
         success: true,
